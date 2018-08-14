@@ -110,22 +110,27 @@
 <!-- Import and configure the Firebase SDK -->
 <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
 <!-- If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
-<script src="/__/firebase/5.3.1/firebase-app.js"></script>
-<script src="/__/firebase/5.3.1/firebase-auth.js"></script>
-<script src="/__/firebase/5.3.1/firebase-database.js"></script>
-<script src="/__/firebase/5.3.1/firebase-storage.js"></script>
-<script src="/__/firebase/5.3.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-functions.js"></script>
+
+<!-- Leave out Storage -->
+<!-- <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-storage.js"></script> -->
+
 
 <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDpeK8Ec-eNedR9GKxhNXcdUrl-4JbLygY",
-    authDomain: "my-friendly.firebaseapp.com",
-    databaseURL: "https://my-friendly.firebaseio.com",
-    projectId: "my-friendly",
-    storageBucket: "my-friendly.appspot.com",
-    messagingSenderId: "756455729345"
+    apiKey: "AIzaSyAppveZ8ArfJyXVjVXbHJPXyZWWrF1U78g",
+    authDomain: "sera-732eb.firebaseapp.com",
+    databaseURL: "https://sera-732eb.firebaseio.com",
+    projectId: "sera-732eb",
+    storageBucket: "sera-732eb.appspot.com",
+    messagingSenderId: "403553889169"
   };
   firebase.initializeApp(config);
 </script>
